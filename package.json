@@ -2,7 +2,7 @@
   "name": "hey-personal-portfolio",
   "version": "0.10.0",
   "private": true,
-  "homepage": "https://htbkoo.github.io/personal-portfolio",
+  "homepage": "https://htbkoo.github.io/personal-portfolio-staging",
   "scripts": {
     "lint": "next lint",
     "dev": "cross-env NEXT_PUBLIC_GIT_SHA=`git rev-parse --short HEAD` BROWSER=none next dev",

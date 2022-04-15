@@ -5,7 +5,7 @@ const withOptimizedImages = require('next-optimized-images');
 const isProd = process.env.NODE_ENV === "production";
 
 // reference: https://blog.sallai.me/deploy-next-site-to-github-pages
-const basePath = isProd ? "/personal-portfolio" : "";
+const basePath = isProd ? "/personal-portfolio-staging" : "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
