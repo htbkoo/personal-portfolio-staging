@@ -57,7 +57,7 @@ jobs:
         NEXT_PUBLIC_GOOGLE_ANALYTICS_TRACKING_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_TRACKING_ID }}
 
     - name: Build (only for the active node version)
-      run: yarn build
+      run: yarn run build-win
       env:
         NEXT_PUBLIC_GOOGLE_ANALYTICS_TRACKING_ENABLED: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_TRACKING_ENABLED }}
         NEXT_PUBLIC_GOOGLE_ANALYTICS_TRACKING_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_TRACKING_ID }}
