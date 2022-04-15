@@ -8,6 +8,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+    overflow-y: scroll;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -18,14 +22,6 @@ a {
 }
 
 /* Legacy CSS from the old version created with create-react-app */
-
-/* From App.css */
-.App {
-    text-align: center;
-
-    animation-duration: 1s;
-    animation-name: fadein;
-}
 
 /* From index.css */
 code {
